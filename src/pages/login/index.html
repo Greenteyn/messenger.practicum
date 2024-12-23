@@ -1,0 +1,21 @@
+<link rel="stylesheet" type="text/css" href="/src/pages/login/style.css" />
+
+<title>Вход в аккаунт</title>
+<div class="container">
+  <form action="/url" class="login-form" method="post">
+    <h1>Вход</h1>
+
+    <label>
+      <span>Логин</span>
+      <span><input type="email" class="input-underline" name="email" placeholder="pochta@yandex.ru" required /></label>
+
+    <label>
+      <span>Пароль</span>
+      <input type="password" class="input-underline" name="password" required /><span class="error-message">Неверный
+        пароль</span>
+    </label>
+
+    <button>Авторизоваться</button>
+    <a href="/registration">Нет аккаунта?</a>
+  </form>
+</div>

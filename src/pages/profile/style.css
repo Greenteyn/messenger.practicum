@@ -1,0 +1,72 @@
+@import url("../../style.css");
+@import url("../../modules/ProfileUserDataForm/style.css");
+@import url("../../modules/ProfileUserDataFooter/style.css");
+@import url("../../modules/ProfileUserDataAvatarEditPopup/style.css");
+@import url("../../modules/ProfileUserDataPasswordEditForm/style.css");
+
+.container {
+  width: 100%;
+  display: flex;
+  flex-flow: row nowrap;
+  height: 100vh;
+}
+
+.left-panel {
+  display: flex;
+  flex-flow: column nowrap;
+  width: 64px;
+  align-items: center;
+  justify-content: center;
+  background: #fbfbfb;
+  border-right: 1px solid #eaeaea;
+}
+
+.user-profile-data {
+  width: 510px;
+  height: 100%;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
+
+.profile-avatar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 130px;
+  height: 130px;
+}
+
+.profile-avatar:hover {
+  background: #000000;
+  content: text("test;");
+}
+
+.user-profile-underlinelink-block {
+  border-bottom: 1px solid #eaeaea;
+  padding-bottom: 10px;
+}
+
+.user-profile-sign-out {
+  color: red;
+}
+
+.user-profile-edit-save-button {
+  margin-top: 30px;
+}
+
+.change-avatar-success-message-filename {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #8d8d8d;
+}
+
+.change-avatar-header-faled {
+  color: #ff2f2f;
+}

@@ -1,0 +1,28 @@
+{
+  "name": "chat-project",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "start": "npm run build && npm run preview"
+  },
+  "devDependencies": {
+    "vite": "^6.0.1",
+    "vite-plugin-handlebars": "^2.0.0"
+  },
+  "postcss": {
+    "parser": "sugarss",
+    "map": false,
+    "plugins": {
+      "postcss-plugin": {}
+    }
+  },
+  "dependencies": {
+    "handlebars": "^4.7.8",
+    "lodash-es": "^4.17.21",
+    "postcss-nesting": "^13.0.1"
+  }
+}

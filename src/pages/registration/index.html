@@ -1,0 +1,40 @@
+<link rel="stylesheet" type="text/css" href="/src/pages/registration/style.css" />
+
+<title>Регистрация</title>
+<div class="container">
+  <form action="/url" class="registraton-form" method="post">
+    <h1>Регистрация</h1>
+
+    <label>
+      <span>Почта</span>
+      <span><input type="email" class="input-underline" name="email" placeholder="pochta@yandex.ru" required /></label>
+
+    <label>
+      <span>Логин</span>
+      <input type="text" class="input-underline" name="login" placeholder="ivanivanov" required /></label>
+
+    <label>
+      <span>Имя</span>
+      <input type="text" class="input-underline" name="first_name" placeholder="Иван" required /></label>
+
+    <label>
+      <span>Фамилия</span>
+      <input type="text" class="input-underline" name="second_name" placeholder="Иванов" required /></label>
+
+    <label>
+      <span>Телефон</span>
+      <input type="text" class="input-underline" name="phone" placeholder="88005553535" required /></label>
+
+    <label>
+      <span>Пароль</span> <input type="password" class="input-underline" name="password" required /></label>
+
+    <label>
+      <span>Пароль (еще раз)</span>
+      <input type="password" class="input-underline" name="password" required /><span class="error-message">Пароли не
+        совпадают</span>
+    </label>
+
+    <button type="submit">Зарегистрироваться</button>
+    <a href="/login">Войти</a>
+  </form>
+</div>
