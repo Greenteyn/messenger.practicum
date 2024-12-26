@@ -26,6 +26,7 @@ const router = () => {
 
   loadPage(pageFile);
 };
+
 document.body.addEventListener("click", function (e) {
   if (e.target.nodeName != "A") return;
   if (e.target && e.target.nodeName == "A") {
