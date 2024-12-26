@@ -11,4 +11,24 @@
 
 [[redirects]]
   from = "/login"
-  to = "/src/pages/login/index.html"
+  to = "/src/pages/login/"
+
+[[redirects]]
+  from = "/registration"
+  to = "/src/pages/registration/"
+
+[[redirects]]
+  from = "/chat"
+  to = "/src/pages/chat/"
+
+[[redirects]]
+  from = "/profile"
+  to = "/src/pages/profile/"
+
+[[redirects]]
+  from = "/login"
+  to = "/src/pages/login/"
+
+[[redirects]]
+  from = "/login"
+  to = "/src/pages/login/"
