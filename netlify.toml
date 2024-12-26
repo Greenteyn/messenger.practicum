@@ -27,4 +27,4 @@
 
 [[redirects]]
   from = "/error-page"
-  to = "/src/pages/error-page/"
+  to = "/src/pages/error/"
