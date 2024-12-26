@@ -26,9 +26,13 @@ const router = () => {
 
   loadPage(pageFile);
 };
+document.body.addEventListener("click", function (e) {
+  if (e.target.nodeName != "A") return;
+  if (e.target && e.target.nodeName == "A") {
+    e.preventDefault();
+    document.location.href = e.target.getAttribute('href');
+  }
+});
 
 window.addEventListener("hashchange", router);
 window.addEventListener("load", router);
-
-window.addEventListener("hashchange", alert(123));
-window.addEventListener("load", alert(321));
