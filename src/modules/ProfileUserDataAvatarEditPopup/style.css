@@ -6,8 +6,8 @@
   width: 340px;
   height: 257px;
   border-radius: 12px;
-  background: white;
-  box-shadow: 0px 0px 6px 0px #00000024;
+  background: var(--white-background);
+  box-shadow: var(--modal-border);
 }
 
 .user-profile-change-avatar-modal-form {
@@ -28,7 +28,7 @@
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
   text-decoration-skip-ink: none;
-  color: #3369f3;
+  color: var(--blue-element);
 }
 
 .user-profile-change-avatar-modal-form input[type="file"] {

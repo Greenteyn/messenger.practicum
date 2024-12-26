@@ -8,12 +8,12 @@
 }
 
 .participant-message-block.incoming-message {
-  background: #f8f8f8;
+  background: var(--incoming-message-background);
 }
 
 .participant-message-block.outcoming-message {
   margin-left: auto;
-  background: #e4edfd;
+  background: var(--outcoming-message-background);
 }
 
 .participant-message-block .text-message {
@@ -28,4 +28,5 @@
 
 .participant-message-block .image-message {
   border-radius: 15px;
+  width: inherit;
 }

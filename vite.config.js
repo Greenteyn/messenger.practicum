@@ -3,6 +3,8 @@ import { defineConfig } from "vite";
 import postcssNesting from "postcss-nesting";
 import handlebars from "vite-plugin-handlebars";
 
+const { PORT = 3000 } = process.env
+
 const pageData = {};
 
 export default defineConfig({
@@ -34,9 +36,9 @@ export default defineConfig({
     outDir: "dist",
   },
   server: {
-    port: 3000,
+    port: PORT,
   },
   preview: {
-    port: 3000,
+    port: PORT,
   },
 });

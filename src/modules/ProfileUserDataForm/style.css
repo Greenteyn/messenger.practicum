@@ -14,7 +14,7 @@
   display: flex;
   justify-content: space-between;
   width: 510px;
-  border-bottom: 1px solid #eaeaea;
+  border-bottom: 1px solid var(--gray-border);
   font-size: 13px;
   font-weight: 500;
   line-height: 13px;
@@ -33,10 +33,10 @@
   text-align: right;
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
-  color: #999999;
+  color: var(--gray-text);
   border: none;
 }
 
 .user-profile-data-form input[disabled] {
-  background: white;
+  background: var(--white-background);
 }

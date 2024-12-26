@@ -7,7 +7,7 @@
   left: 470px;
   gap: 0px;
   border-radius: 12px;
-  box-shadow: 0px 0px 6px 0px #00000024;
+  box-shadow: var(--modal-border);
 }
 
 .container .registraton-form {
@@ -28,8 +28,8 @@
   text-align: left;
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
-  color: #999999;
+  color: var(--gray-text);
 }
-.registraton-form h1 {
+.registraton-form h2 {
   padding-top: 30px;
 }

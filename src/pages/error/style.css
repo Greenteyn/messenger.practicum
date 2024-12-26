@@ -12,13 +12,10 @@
 }
 
 .error-code {
-  font-size: 40px;
-  font-weight: 500;
-  line-height: 40px;
   text-align: center;
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
-  color: #1e1e1e;
+  color: var(--dark-gray-text);
 }
 
 .error--text-message {
@@ -28,7 +25,7 @@
   text-align: center;
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
-  color: #1e1e1e;
+  color: var(--dark-gray-text);
 }
 .back-to-chat-link {
   font-size: 11px;
