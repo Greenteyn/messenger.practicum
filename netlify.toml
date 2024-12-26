@@ -26,9 +26,5 @@
   to = "/src/pages/profile/"
 
 [[redirects]]
-  from = "/login"
-  to = "/src/pages/login/"
-
-[[redirects]]
-  from = "/login"
-  to = "/src/pages/login/"
+  from = "/error-page"
+  to = "/src/pages/error-page/"
