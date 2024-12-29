@@ -1,0 +1,42 @@
+.user-profile-data-form {
+  display: flex;
+}
+
+.user-profile-data-form {
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: center;
+  row-gap: 10px;
+  margin-top: 30px;
+}
+
+.user-profile-data-form label {
+  display: flex;
+  justify-content: space-between;
+  width: 510px;
+  border-bottom: 1px solid var(--gray-border);
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 13px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  padding-bottom: 10px;
+}
+
+.user-profile-data-form input {
+  width: 300px;
+  text-align: right;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 13px;
+  text-align: right;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: var(--gray-text);
+  border: none;
+}
+
+.user-profile-data-form input[disabled] {
+  background: var(--white-background);
+}

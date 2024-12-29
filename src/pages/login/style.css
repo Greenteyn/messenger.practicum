@@ -1,0 +1,38 @@
+@import url("../../style.css");
+
+.container {
+  width: 340px;
+  height: 450px;
+  gap: 0px;
+  border-radius: 12px;
+  box-shadow: var(--modal-border);
+}
+
+.container .login-form {
+  display: flex;
+  flex-flow: column nowrap;
+  row-gap: 25px;
+  align-items: center;
+  justify-content: center;
+}
+
+.login-form label {
+  display: flex;
+  flex-direction: column;
+  font-family: inherit;
+  font-size: 9px;
+  font-weight: 500;
+  line-height: 9px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: var(--gray-text);
+}
+
+.login-form h2 {
+  padding-top: 30px;
+}
+
+.login-form button {
+  margin-top: 100px;
+}

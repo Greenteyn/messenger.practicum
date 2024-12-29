@@ -1,0 +1,38 @@
+@import url("../../style.css");
+
+.container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  row-gap: 30px;
+}
+
+.error-code {
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: var(--dark-gray-text);
+}
+
+.error--text-message {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 20px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: var(--dark-gray-text);
+}
+.back-to-chat-link {
+  font-size: 11px;
+  font-weight: 500;
+  line-height: 11px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  margin-top: 20px;
+}

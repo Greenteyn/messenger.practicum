@@ -1,0 +1,21 @@
+.add-user-modal,
+.delete-user-modal {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  left: 50%;
+  width: 340px;
+  height: 257px;
+  border-radius: 12px;
+  background: var(--white-background);
+  box-shadow: var(--modal-border);
+}
+
+.add-user-modal form,
+.delete-user-modal form {
+  display: flex;
+  flex-flow: column nowrap;
+  row-gap: 25px;
+  align-items: center;
+  justify-content: center;
+}

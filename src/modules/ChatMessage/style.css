@@ -1,0 +1,32 @@
+.participant-message-block {
+  display: flex;
+  flex-flow: inherit;
+  max-width: 50%;
+  margin-top: 20px;
+  border-style: none;
+  border-radius: 15px;
+}
+
+.participant-message-block.incoming-message {
+  background: var(--incoming-message-background);
+}
+
+.participant-message-block.outcoming-message {
+  margin-left: auto;
+  background: var(--outcoming-message-background);
+}
+
+.participant-message-block .text-message {
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 15px;
+  padding: 10px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+.participant-message-block .image-message {
+  border-radius: 15px;
+  width: inherit;
+}

@@ -1,0 +1,21 @@
+.add-delete-user-menu {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: flex-start;
+  justify-content: center;
+  row-gap: 10px;
+  position: absolute;
+  background: var(--white-background);
+  box-shadow: var(--modal-border);
+  border-radius: 12px;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 14px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  width: 145px;
+  right: 330px;
+  padding: 10px;
+  margin-top: 140px;
+}
